@@ -1,0 +1,31 @@
+#caracteristicas {
+    .container {
+        text-align: center;
+        padding: 250px 12px;
+    }
+
+    li {
+        margin: 16px 0px;
+        font-weight: bold;
+    }
+}
+
+#final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $background-color_4;
+    color: $color_1;
+    height: 80vh;
+
+    h2 {
+        font-size: 6vw;
+        text-align: start;
+    }
+
+    button {
+        font-size: 3vw;
+    }
+}

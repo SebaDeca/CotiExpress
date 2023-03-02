@@ -1,0 +1,77 @@
+/* BUTTON */
+@keyframes shaking {
+    10% {
+        transform: scale(1.05) rotate(5deg);
+    }
+
+    20% {
+        transform: scale(1.05) rotate(-5deg);
+    }
+
+    30% {
+        transform: scale(1.05) rotate(5deg);
+    }
+
+    40% {
+        transform: none;
+    }
+}
+
+button {
+    font-size: 2vmax;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: $color_1;
+    background-color: $background-color_1;
+    animation: shaking 2s infinite;
+
+    &:hover {
+        background-color: $background-color_2;
+    }
+}
+
+header {
+    background-color: $background-color_3;
+}
+
+body {
+    font-family: $font-family_1;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+.color-acento {
+    color: $color_2;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: $color_2;
+    font-size: 1.6em;
+}
+
+ul {
+    padding: 8px 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color: $color_3;
+}

@@ -1,0 +1,46 @@
+footer {
+    background-color: $background-color_5;
+
+    p {
+        margin: 0;
+        padding: 12px;
+        color: $color_4;
+        text-align: center;
+    }
+
+    .container {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+
+.titulo {
+    font-weight: bold;
+    color: $color_2;
+    margin: 16px 0px;
+    text-align: center;
+    padding: 75px;
+}
+
+form {
+    padding: 50px;
+}
+
+section {
+    font-weight: bold;
+    color: $color_2;
+    margin: auto 0;
+    padding: 50px;
+    text-align: center;
+}
+
+.card {
+    margin: auto auto;
+    width: auto;
+}
+
+.descripcion {
+    padding: 25px;
+}
