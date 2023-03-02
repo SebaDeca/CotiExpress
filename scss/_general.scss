@@ -1,4 +1,5 @@
-/* BUTTON */
+/* BUTTON ANIMACIÓN */
+
 @keyframes shaking {
     10% {
         transform: scale(1.05) rotate(5deg);
@@ -17,6 +18,8 @@
     }
 }
 
+/* BUTTON */
+
 button {
     font-size: 2vmax;
     font-weight: bold;
@@ -32,6 +35,8 @@ button {
         background-color: $background-color_2;
     }
 }
+
+/* GENERALES */
 
 header {
     background-color: $background-color_3;
@@ -70,8 +75,21 @@ p {
 }
 
 ul {
-    padding: 8px 14px;
-    text-decoration: none;
-    font-weight: bold;
-    color: $color_3;
+    margin: 0;
+        padding: 12px;
+        color: $color_4;
+        text-align: center;
+        font-weight: bold;
+    
+}
+
+/* MIXIN */
+
+@mixin anclas { 
+    margin: 0;
+        padding: 12px;
+        color: $color_4;
+        text-align: center;
+        font-weight: bold;
+    
 }

@@ -1,4 +1,5 @@
-/* BUTTON */
+@charset "UTF-8";
+/* VARIABLES */ /* BUTTON ANIMACIÓN */
 @keyframes shaking {
   10% {
     transform: scale(1.05) rotate(5deg);
@@ -13,6 +14,7 @@
     transform: none;
   }
 }
+/* BUTTON */
 button {
   font-size: 2vmax;
   font-weight: bold;
@@ -28,6 +30,7 @@ button:hover {
   background-color: rgb(101, 33, 165);
 }
 
+/* GENERALES */
 header {
   background-color: rgb(245, 245, 245);
 }
@@ -65,12 +68,15 @@ p {
 }
 
 ul {
-  padding: 8px 14px;
-  text-decoration: none;
+  margin: 0;
+  padding: 12px;
+  color: rgb(100, 100, 100);
+  text-align: center;
   font-weight: bold;
-  color: black;
 }
 
+/* MIXIN */
+/* SECCIÓN HERO */
 #hero {
   width: 100%;
   margin: 0 auto;
@@ -89,6 +95,7 @@ ul {
   color: white;
 }
 
+/* SECCIÓN SOMOS-COTI */
 #somos-coti .container {
   text-align: center;
   padding: 200px 12px;
@@ -101,6 +108,7 @@ ul {
   background-image: url("media/somos-coti.jpg");
 }
 
+/* SECCIÓN COMBOS */
 #nuestros-combos {
   background-color: rgb(30, 30, 30);
   color: white;
@@ -131,6 +139,7 @@ ul {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/combo-economico.jpg");
 }
 
+/* SECCIÓN CARACTERISTICAS Y #FINAL */
 #caracteristicas .container {
   text-align: center;
   padding: 250px 12px;
@@ -158,6 +167,7 @@ ul {
   font-size: 3vw;
 }
 
+/* SECCIÓN FOOTER Y GENERALES  */
 footer {
   background-color: rgb(230, 230, 230);
 }
@@ -166,6 +176,7 @@ footer p {
   padding: 12px;
   color: rgb(100, 100, 100);
   text-align: center;
+  font-weight: bold;
 }
 footer .container {
   height: 150px;

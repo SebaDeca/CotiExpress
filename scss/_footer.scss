@@ -1,11 +1,10 @@
+/* SECCIÓN FOOTER Y GENERALES  */
+
 footer {
     background-color: $background-color_5;
 
     p {
-        margin: 0;
-        padding: 12px;
-        color: $color_4;
-        text-align: center;
+        @include anclas;
     }
 
     .container {
