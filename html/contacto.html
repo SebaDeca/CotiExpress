@@ -47,15 +47,26 @@
     </nav>
 
     <form>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+            <label for="floatingInput">Nombre</label>
         </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email</label>
         </div>
-        <button id="form" type="submit">Enviar</button>
+        <div class="form-floating">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Telefono">
+            <label for="floatingInput">Teléfono (Opcional)</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Comentario" id="floatingTextarea2"
+                style="height: 150px"></textarea>
+            <label for="floatingTextarea2">Comentario (Opcional)</label>
+        </div>
+        <div class="boton-enviar">
+            <button id="form" type="submit">Enviar</button>
+        </div>
     </form>
 
     <h2 class="titulo">Mapa de ubicación</h2>

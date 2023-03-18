@@ -147,6 +147,8 @@ ul {
 #caracteristicas li {
   margin: 16px 0px;
   font-weight: bold;
+  list-style: none;
+  color: black;
 }
 
 #final {
@@ -213,5 +215,15 @@ section {
 .descripcion {
   padding: 25px;
 }
+
+.form-floating{
+ padding: 10px
+}
+
+.boton-enviar{
+  padding: 30px;
+  text-align: center;
+}
+
 
 /*# sourceMappingURL=estilo.css.map */
